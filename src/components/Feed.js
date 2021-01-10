@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Card,CardContent,FormControl,MenuItem,Select} from "@material-ui/core";
+import {FormControl,MenuItem,Select} from "@material-ui/core";
 import './Feed.css';
 import InfoBox from './InfoBox';
 import { Pie ,Bar } from 'react-chartjs-2';
