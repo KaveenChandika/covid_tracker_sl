@@ -1,0 +1,28 @@
+.infoBox{
+    width: 100%;
+    margin: 20px;
+}
+
+.infoBox__total{
+    margin-top: 10px !important;
+    font-weight: 700 !important;
+    color: green !important;
+}
+
+.infoBox__title_red{
+    color: red !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.infoBox__title_skyblue{
+    color: skyblue !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.infoBox__title_blue{
+    color: blue !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}

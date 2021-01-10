@@ -1,0 +1,50 @@
+.feed{
+    display: flex;
+}
+@media(max-width:990px){
+    .feed{
+      flex-direction: column;
+    }
+}
+
+.feed__left{
+    flex: 0.7;
+    justify-content: space-between;
+    margin: 20px;
+    height: 200px;
+}
+
+.feed__left >h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.feed__right{
+    margin-top: 10px;
+    flex: 0.5;
+}
+
+.feed__right >h2{
+    text-align: center;
+}
+
+.feed__pie{
+    margin:10px;
+    padding: 10px;
+    box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
+}
+
+.feed__bar{
+    margin:10px;
+    padding: 10px;
+    box-shadow: 0px 6px 18px -2px rgba(0,0,0,0.75);
+    height: 70vh;
+}
+
+.feed__left__card_sl{
+    display: flex;
+}
+
+.feed__left__card_global{
+    display: flex;
+}

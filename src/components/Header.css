@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(white,blue);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.header >img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    transition: transform 900ms;
+}
+
+.header >img:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+}
