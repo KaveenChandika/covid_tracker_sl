@@ -31,7 +31,7 @@ function Feed() {
 
     useEffect(() =>{
         Aos.init({duration:2000});
-    },[]);
+    });
 
     useEffect(()=>{
         const getCountryData = async () =>{
@@ -68,27 +68,6 @@ function Feed() {
             setCountryName(data.country);
         });
     }
-
-    // const data = {
-    //     labels: [
-    //         'Total Coronavirus Cases',
-    //         'Total Recovered',
-    //         'Total Deaths'
-    //     ],
-    //     datasets: [{
-    //         data: [countryInfoGlo.cases, countryInfoGlo.recovered, countryInfoGlo.deaths],
-    //         backgroundColor: [
-    //         'red',
-    //         'skyblue',
-    //         'blue'
-    //         ],
-    //         hoverBackgroundColor: [
-    //             'red',
-    //             'skyblue',
-    //             'blue'
-    //         ]
-    //     }]
-    // };
 
     const dataBar = {
         labels: [ 'Today Cases',
