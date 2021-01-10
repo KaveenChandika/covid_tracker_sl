@@ -27,7 +27,7 @@ function Feed() {
         }
         
         getCountries();
-    },[])
+    })
 
     useEffect(() =>{
         Aos.init({duration:2000});
@@ -50,7 +50,7 @@ function Feed() {
           .then((data) => {
             setCountryInfoGlo(data);
           });
-      }, []);
+      });
 
     const onCountryChange = async (event) =>{
         const countryCode = event.target.value;
