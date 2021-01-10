@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {FormControl,MenuItem,Select} from "@material-ui/core";
 import './Feed.css';
 import InfoBox from './InfoBox';
-import { Pie ,Bar } from 'react-chartjs-2';
+import {Bar } from 'react-chartjs-2';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 function Feed() {
@@ -152,13 +152,6 @@ function Feed() {
                 </div>
             </div>
             <div className="feed__right">
-                {/* <div  data-aos="fade-left" className="feed__pie">
-                    <Pie 
-                        data={data}
-                        width={100}
-                        height={90}
-                    />
-                </div> */}
                 <h2>Covid-19 Summary In {countryName} </h2>
                 <div data-aos="fade-up" className="feed__bar">
                     <Bar
